@@ -1,0 +1,8 @@
+<div class="map-wrapper">
+
+  <div class="point-wrapper">
+    <button *ngFor="let notes of aExplorerNotesData; let i = index" [style.top.%]="getXValue(notes.coordinatesString)" [style.left.%]="getYValue(notes.coordinatesString)" [style.background-color]="getColor(notes.type, i)" class="point" (click)="onClickNote(i)">
+    </button>
+  </div>
+
+</div>
