@@ -71,20 +71,23 @@ export class ExplorerNotesComponent implements OnInit {
 
     this.returnNotesFromLocalStorage();
 
-    this.aExplorerNotesData[index].clicked = !this.aExplorerNotesData[index].clicked;
-   
-    if (this.aExplorerNotesData[index].clicked && this.aPickedExplorerNotes.filter((element) => {
+    if (this.aPickedExplorerNotes.find((element) => {
         return element.id === this.aExplorerNotesData[index].id;
-    } )
-    ) {
+    }))
+    {
+      console.log("In Storage " + this.aExplorerNotesData[index].id)
+      // If Note is in Local Storage - That means it is clicked - We needs to remove it
       this.removeNoteFromLocalStorage(this.aExplorerNotesData[index].id);
-      
       console.log("removed " + this.aExplorerNotesData[index].id);
-      return;
+   
+    }
+    else {
+      // If Note is not in Local Storage - That means it is not clicked - We needs to add it
+      this.savePickedNoteToLocalStorage(this.aExplorerNotesData[index].id)
+      console.log("added " + this.aExplorerNotesData[index].id);
     }
 
-    this.savePickedNoteToLocalStorage(this.aExplorerNotesData[index].id)
-    console.log("added " + this.aExplorerNotesData[index].id);
+    
 
   }
 
