@@ -1,126 +1,160 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Inject, OnInit } from '@angular/core';
+import { AfterViewChecked, AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-explorer-notes',
-  templateUrl: './explorer-notes.component.html',
-  styleUrls: ['./explorer-notes.component.css']
+    selector: 'app-explorer-notes',
+    templateUrl: './explorer-notes.component.html',
+    styleUrls: ['./explorer-notes.component.css']
 })
-export class ExplorerNotesComponent implements OnInit {
+export class ExplorerNotesComponent implements OnInit, AfterViewChecked {
 
-  public aExplorerNotesData: IExplorerNotesData[] = [];
+    public aExplorerNotesData: IExplorerNotesData[] = [];
 
-  public aPickedExplorerNotes: IPickedExplorerNotes[] = [];
+    public aPickedExplorerNotes: IPickedExplorerNotes[] = [];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<IExplorerNotesData[]>(baseUrl + 'weatherforecast').subscribe(result => {
-      this.aExplorerNotesData = result;
-      console.log(this.aExplorerNotesData);
-    }, error => console.error(error));
+    public aIsHidden: boolean = true;
+    public aNoteData: IExplorerNotesData = null;
+    public aPointWrapperWidth: number;
 
-    this.returnNotesFromLocalStorage();
-  }
+    constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
+        http.get<IExplorerNotesData[]>(baseUrl + 'weatherforecast').subscribe(result => {
+                this.aExplorerNotesData = result;
+                console.log(this.aExplorerNotesData);
+            },
+            error => console.error(error));
 
-  ngOnInit(): void {
-    console.log(this.aExplorerNotesData);
-    console.log(this.aPickedExplorerNotes);
-  }
-
-  getXValue(parCoordinates: string): number {
-    return (100 / (93 - 7)) * (parseFloat(parCoordinates.split(",")[0]) - 7);
-  }
-
-  getYValue(parCoordinates: string): number {
-    return (100 / (93 - 7)) * (parseFloat(parCoordinates.split(",")[1]) - 7);
-  }
-
-  getColor(parType: string, index: number): string {
-
-    this.returnNotesFromLocalStorage();
-
-    if (this.aPickedExplorerNotes.find((element) => {
-      return element.id === this.aExplorerNotesData[index].id
-    })) {
-      return "lime";
+        this.returnNotesFromLocalStorage();
     }
 
-    if (parType === "Dossier") {
-      return "Fuchsia 	";
+    ngOnInit(): void {
+        console.log(this.aExplorerNotesData);
+        console.log(this.aPickedExplorerNotes);
     }
 
-    if (parType === "Note" || parType === "Record") {
-      return "Yellow";
+    ngAfterViewChecked() {
+        console.log("Kokotina");
+        this.aPointWrapperWidth = this.aElementPointTooltipTextWrapper.nativeElement.offsetWidth;
+        console.log("Wrapper: " + this.aPointWrapperWidth);
+
     }
 
-    if (parType == "Discovery") {
-      return "cyan"
+    getXValue(parCoordinates: string): number {
+        return (100 / (93 - 7)) * (parseFloat(parCoordinates.split(",")[0]) - 7);
     }
 
-    if (parType == "Hologram") {
-      return "black"
+    getYValue(parCoordinates: string): number {
+        return (100 / (93 - 7)) * (parseFloat(parCoordinates.split(",")[1]) - 7);
     }
 
-    if (parType == "Genesis2Chronicles") {
-      return "blue"
+    getCoordinatesFormatted(parCoordinates: string): string {
+        return "Lat: " + parCoordinates.split(",")[0] + " Lon: " + parCoordinates.split(",")[1];
     }
 
-    return "white";
-  }
+    getColor(parType: string, index: number): string {
 
-  onClickNote(index: number) {
+        this.returnNotesFromLocalStorage();
 
-    this.returnNotesFromLocalStorage();
+        if (this.aPickedExplorerNotes.find((element) => {
+            return element.id === this.aExplorerNotesData[index].id
+        })) {
+            return "lime";
+        }
 
-    if (this.aPickedExplorerNotes.find((element) => {
-        return element.id === this.aExplorerNotesData[index].id;
-    }))
-    {
-      console.log("In Storage " + this.aExplorerNotesData[index].id)
-      // If Note is in Local Storage - That means it is clicked - We needs to remove it
-      this.removeNoteFromLocalStorage(this.aExplorerNotesData[index].id);
-      console.log("removed " + this.aExplorerNotesData[index].id);
-   
+        if (parType === "Dossier") {
+            return "Fuchsia 	";
+        }
+
+        if (parType === "Note" || parType === "Record") {
+            return "Yellow";
+        }
+
+        if (parType == "Discovery") {
+            return "cyan"
+        }
+
+        if (parType == "Hologram") {
+            return "black"
+        }
+
+        if (parType == "Genesis2Chronicles") {
+            return "blue"
+        }
+
+        return "white";
     }
-    else {
-      // If Note is not in Local Storage - That means it is not clicked - We needs to add it
-      this.savePickedNoteToLocalStorage(this.aExplorerNotesData[index].id)
-      console.log("added " + this.aExplorerNotesData[index].id);
+
+    onClickNote(index: number) {
+
+        this.returnNotesFromLocalStorage();
+
+        if (this.aPickedExplorerNotes.find((element) => {
+            return element.id === this.aExplorerNotesData[index].id;
+        })) {
+            console.log("In Storage " + this.aExplorerNotesData[index].id)
+            // If Note is in Local Storage - That means it is clicked - We needs to remove it
+            this.removeNoteFromLocalStorage(this.aExplorerNotesData[index].id);
+            console.log("removed " + this.aExplorerNotesData[index].id);
+
+        } else {
+            // If Note is not in Local Storage - That means it is not clicked - We needs to add it
+            this.savePickedNoteToLocalStorage(this.aExplorerNotesData[index].id)
+            console.log("added " + this.aExplorerNotesData[index].id);
+        }
+
+
     }
 
-    
+    savePickedNoteToLocalStorage(parNodeId: number) {
 
-  }
+        this.returnNotesFromLocalStorage();
 
-  savePickedNoteToLocalStorage(parNodeId: number) {
+        var tmpPickedEplorerNote: IPickedExplorerNotes = { id: parNodeId };
+        this.aPickedExplorerNotes.push(tmpPickedEplorerNote);
 
-    this.returnNotesFromLocalStorage();
-
-    var tmpPickedEplorerNote: IPickedExplorerNotes = { id: parNodeId };
-    this.aPickedExplorerNotes.push(tmpPickedEplorerNote);
-
-    localStorage.setItem("picked_notes", JSON.stringify(this.aPickedExplorerNotes));
-  }
-
-  removeNoteFromLocalStorage(parNodeId: number) {
-
-    this.returnNotesFromLocalStorage();
-
-    this.aPickedExplorerNotes = this.aPickedExplorerNotes.filter((element) => {
-      return element.id !== parNodeId;
-    });
-
-    localStorage.setItem("picked_notes", JSON.stringify(this.aPickedExplorerNotes));
-  }
-
-  returnNotesFromLocalStorage() {
-    var tmpStringifiedLocalStorageNotes: string | null = localStorage.getItem('picked_notes');
-    if (tmpStringifiedLocalStorageNotes) {
-      this.aPickedExplorerNotes = JSON.parse(tmpStringifiedLocalStorageNotes);
+        localStorage.setItem("picked_notes", JSON.stringify(this.aPickedExplorerNotes));
     }
-  }
 
+    removeNoteFromLocalStorage(parNodeId: number) {
+
+        this.returnNotesFromLocalStorage();
+
+        this.aPickedExplorerNotes = this.aPickedExplorerNotes.filter((element) => {
+            return element.id !== parNodeId;
+        });
+
+        localStorage.setItem("picked_notes", JSON.stringify(this.aPickedExplorerNotes));
+    }
+
+    returnNotesFromLocalStorage() {
+        var tmpStringifiedLocalStorageNotes: string = localStorage.getItem('picked_notes');
+        if (tmpStringifiedLocalStorageNotes) {
+            this.aPickedExplorerNotes = JSON.parse(tmpStringifiedLocalStorageNotes);
+        }
+    }
+
+    onMouseEnter(parNoteData: IExplorerNotesData) {
+
+        this.aIsHidden = false;
+        this.aNoteData = parNoteData;
+    }
+
+    onMouseLeave() {
+        this.aIsHidden = true;
+    }
+
+    filterNotesNotCollected(): IExplorerNotesData[] {
+
+        return this.aExplorerNotesData.filter(object1 => {
+            return !this.aPickedExplorerNotes.some(((object2): boolean => {
+                return object1.id === object2.id;
+            }) as any);
+        });
+
+    }
+
+    @ViewChild("pointTooltipElement", {static: false})
+    aElementPointTooltipTextWrapper: ElementRef;
 }
-
 
 
 interface IExplorerNotesData {

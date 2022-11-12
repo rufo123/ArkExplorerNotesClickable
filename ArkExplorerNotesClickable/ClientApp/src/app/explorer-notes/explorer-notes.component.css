@@ -1,35 +1,79 @@
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.note-sidebar {
+    margin-left: 15px;
+}
+
 .map-wrapper {
-  display: block;
-  position: relative;
-  width: calc(100vw / 2.5);
-  height: calc(100vw / 2.5);
-  background-image: url(../../assets/the_island_map.webp);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    width: calc(100vw / 2.5);
+    height: calc(100vw / 2.5);
+    background-image: url(../../assets/the_island_map.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .point-wrapper {
-  display: block;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  inset: 0 100% 100% 0;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0 100% 100% 0;
 }
 
 .point {
-  position: absolute;
-  background-color: black;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-left: -5px;
-  margin-top: -5px;
-  border: 1px solid black;
+    position: absolute;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    border: 1px solid black;
+    padding: 0;
 }
 
-  .point:focus {
-    background-color: lime;
-  }
+.point-tooltip {
+    position: absolute;
+    background-color: lightgrey;
+    width: 30%;
+    height: 10%;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    margin-top: 1%;
 
+    display: flex;
+    flex-direction: column;
+    font-size: 60%;
+    overflow: hidden;
+}
+.point-tooltip br {
+    display: none;
+}
+
+.point-tooltip p {
+    margin: 0;
+    padding: 0;
+}
+
+.point-tooltip-text-wrapper {
+}
+
+.point:focus {
+    background-color: lime;
+}
+
+.note-details {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
