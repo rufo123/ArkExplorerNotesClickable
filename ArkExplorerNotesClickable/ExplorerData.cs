@@ -16,7 +16,7 @@ namespace ArkExplorerNotesClickable
 
         public void LoadData() {
 
-            string[] lines = System.IO.File.ReadAllLines(@"Assets/ExplorerNotes/Island/The_Island_Explorer_Notes.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"wwwroot/assets/explorer_notes/island/The_Island_Explorer_Notes.txt");
 
             aArrayExplorerNotes = new Dictionary<int, ExplorerNoteData>(lines.Length);
             int test = 0;

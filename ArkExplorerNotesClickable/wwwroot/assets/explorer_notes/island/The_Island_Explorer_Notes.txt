@@ -1,0 +1,238 @@
+﻿Dossier 	 Achatina 	Helena 	75.8 	78.2 	Southern Islets 	141
+Dossier 	 Allosaurus 	Helena 	16.4 	10.9 	Underwater Cave 	6
+Dossier 	 Ammonite 	Helena 	87.5 	51.4 	Southern Islets 	233
+Dossier 	 Anglerfish 	Helena 	24.6 	40.1 	Northern Plains 	7
+Dossier 	 Ankylosaurus 	Helena 	15.8 	26.7 	Whitesky Peak 	8
+Dossier 	 Araneo 	Helena 	39.6 	45.8 	Central Cave 	64
+Dossier 	 Archaeopteryx 	Helena 	18.7 	42.8 	Winter's Mouth hidden behind a waterfall 	9
+Dossier 	 Argentavis 	Helena 	21.6 	53.9 	Winter's Mouth 	10
+Dossier 	 Arthropleura 	Helena 	14.2 	69.1 	Northern Shores 	11
+Dossier 	 Baryonyx 	Helena 	30 	78.1 	Far's Peak 	174
+Dossier 	 Basilosaurus 	Helena 	52.4 	17.7 	The Western Approach 	175
+Dossier 	 Bee 	Helena 	70.7 	61.1 	The Writhing Swamps 	281
+Dossier 	 Beelzebufo 	Helena 	14.8 	81.4 	The Dead Island 	14
+Dossier 	 Brontosaurus 	Helena 	31.6 	17.1 	Whitesky Peak 	16
+Dossier 	 Carbonemys 	Helena 	10.9 	40.4 	Underwater Cave 	74
+Dossier 	 Carnotaurus 	Helena 	33.3 	41 	The Grand Hills 	17
+Dossier 	 Castoroides 	Helena 	25.1 	71.8 	The Hidden Lake 	12
+Dossier 	 Chalicotherium 	Helena 	31.3 	28.9 	Whitesky Peak 	18
+Dossier 	 Cnidaria 	Helena 	49.8 	81.7 	The Caverns of Lost Hope 	160
+Dossier 	 Coelacanth 	Helena 	37 	49.9 	The Maw 	19
+Dossier 	 Compy 	Helena 	41.2 	49.2 	The Grand Hills 	20
+Dossier 	 Daeodon 	Helena 	88.1 	53 	Southern Islets 	282
+Dossier 	 Dilophosaur 	Helena 	84.3 	10.2 	Underwater Cave 	0
+Dossier 	 Dimetrodon 	Helena 	28.5 	74.2 	Far's Peak 	21
+Dossier 	 Dimorphodon 	Helena 	26.6 	70.6 	The Hidden Lake 	22
+Dossier 	 Diplocaulus 	Helena 	27.6 	82.6 	Northern Shores 	24
+Dossier 	 Diplodocus 	Helena 	25.1 	13.5 	Whitesky Peak 	23
+Dossier 	 Dire Bear 	Helena 	40.4 	83.8 	The Eastern Forest 	25
+Dossier 	 Direwolf 	Helena 	42.5 	20.8 	The Western Plains 	26
+Dossier 	 Dodo 	Helena 	56.7 	21.4 	The Western Approach 	27
+Dossier 	 Doedicurus 	Helena 	47 	27.5 	The Western Plains 	28
+Dossier 	 Dung Beetle 	Helena 	16.5 	85 	The Dead Island 	13
+Dossier 	 Dunkleosteus 	Helena 	44 	55.2 	The Maw 	30
+Dossier 	 Electrophorus 	Helena 	36.4 	81.4 	Far's Peak 	234
+Dossier 	 Equus 	Helena 	63.6 	33.4 	The Redwood Forests 	237
+Dossier 	 Eurypterid 	Helena 	44.1 	49 	The Maw 	31
+Dossier 	 Gallimimus 	Helena 	45.6 	62.3 	The Maw 	32
+Dossier 	 Giganotosaurus 	Helena 	44 	66.4 	Smuggler's Pass 	33
+Dossier 	 Gigantopithecus 	Helena 	26.6 	23.6 	Whitesky Peak 	15
+Dossier 	 Hesperornis 	Helena 	81.7 	84.1 	South Haven 	302
+Dossier 	 Hyaenodon 	Helena 	80.9 	81.9 	Southeastern Shores 	298
+Dossier 	 Ichthyornis 	Helena 	72.8 	64.5 	Southern Islets 	239
+Dossier 	 Ichthyosaurus 	Helena 	52.9 	79.8 	Southeastern Shores 	34
+Dossier 	 Iguanodon 	Helena 	62.4 	24.7 	The Writhing Swamps 	240
+Dossier 	 Kairuku 	Helena 	42.5 	79.6 	The Eastern Forest 	35
+Dossier 	 Kaprosuchus 	Helena 	82.9 	51.9 	Lower South Cave 	36
+Dossier 	 Kentrosaurus 	Helena 	78.3 	23.6 	Southern Jungle 	283
+Dossier 	 Leech 	Helena 	85.3 	53.4 	Lower South Cave 	37
+Dossier 	 Leedsichthys 	Helena 	83.1 	23.5 	Cragg's Island 	238
+Dossier 	 Liopleurodon 	Helena 	78.2 	24.4 	Southern Jungle 	284
+Dossier 	 Lystrosaurus 	Helena 	68.6 	59.3 	Upper South Cave 	38
+Dossier 	 Mammoth 	Helena 	71.3 	59.8 	Upper South Cave 	39
+Dossier 	 Manta 	Helena 	68.9 	86.2 	Lava Cave 	40
+Dossier 	 Megalania 	Helena 	84.4 	84.1 	South Haven 	299
+Dossier 	 Megaloceros 	Helena 	67.5 	85.6 	Lava Cave 	41
+Dossier 	 Megalodon 	Helena 	41 	47.3 	Central Cave 	42
+Dossier 	 Megalosaurus 	Helena 	16.6 	84.1 	North East Cave 	43
+Dossier 	 Meganeura 	Helena 	54.3 	41.4 	The Redwood Forests 	29
+Dossier 	 Megatherium 	Helena 	75 	21.4 	Southern Jungle 	301
+Dossier 	 Mesopithecus 	Helena 	16.1 	84.4 	North East Cave 	44
+Dossier 	 Microraptor 	Helena 	48.5 	21.6 	The Western Approach 	235
+Dossier 	 Mosasaurus 	Helena 	16.4 	84.5 	North East Cave 	45
+Dossier 	 Moschops 	Helena 	64.3 	17.4 	Southern Jungle 	142
+Dossier 	 Onyc 	Helena 	66.4 	19.7 	Southern Jungle 	46
+Dossier 	 Otter 	Helena 	35.7 	59.1 	The Frozen Tooth 	355
+Dossier 	 Oviraptor 	Helena 	58.9 	23.1 	The Western Approach 	47
+Dossier 	 Ovis 	Helena 	73.3 	74.1 	Southern Islets 	173
+Dossier 	 Pachy 	Helena 	65.5 	40.8 	The Redwood Forests 	48
+Dossier 	 Pachyrhinosaurus 	Helena 	77.6 	20.7 	Southern Jungle 	143
+Dossier 	 Paraceratherium 	Helena 	65.1 	31.4 	The Redwood Forests 	49
+Dossier 	 Parasaur 	Helena 	71.5 	32.1 	The Writhing Swamps 	50
+Dossier 	 Pegomastax 	Helena 	82.2 	62.9 	Southern Islets 	163
+Dossier 	 Pelagornis 	Helena 	71.3 	47.2 	Southern Islets 	51
+Dossier 	 Phiomia 	Helena 	72.5 	53.8 	The Writhing Swamps 	52
+Dossier 	 Piranha 	Helena 	68.1 	67.6 	Southern Islets 	53
+Dossier 	 Plesiosaur 	Helena 	68.4 	59.5 	The Writhing Swamps 	54
+Dossier 	 Procoptodon 	Helena 	72.3 	78.2 	Southern Islets 	55
+Dossier 	 Pteranodon 	Helena 	66.9 	76.8 	Southern Islets 	56
+Dossier 	 Pulmonoscorpius 	Helena 	80.6 	61.9 	Southern Islets 	63
+Dossier 	 Purlovia 	Helena 	36.6 	34.9 	The Grand Hills 	176
+Dossier 	 Quetzal 	Helena 	87.4 	23.3 	Cragg's Island 	57
+Dossier 	 Raptor 	Helena 	86.8 	25 	Cragg's Island 	58
+Dossier 	 Rex 	Helena 	53.1 	92.5 	Underwater Cave 	71
+Dossier 	 Sabertooth 	Helena 	77.1 	26.1 	Southern Jungle 	60
+Dossier 	 Sabertooth Salmon 	Helena 	87.5 	52.5 	Southern Islets 	61
+Dossier 	 Sarco 	Helena 	77.9 	42.9 	Southern Islets 	62
+Dossier 	 Spino 	Helena 	75.7 	79.8 	Southern Islets 	65
+Dossier 	 Stegosaurus 	Helena 	78.3 	79.1 	Southeast Shores 	66
+Dossier 	 Tapejara 	Helena 	62.3 	40.2 	Swamp Cave 	67
+Dossier 	 Terror Bird 	Helena 	62.2 	40.9 	Swamp Cave 	68
+Dossier 	 Therizinosaur 	Helena 	67.6 	48.5 	The Writhing Swamps 	164
+Dossier 	 Thylacoleo 	Helena 	32.4 	66.2 	The Frozen Tooth 	236
+Dossier 	 Titanoboa 	Helena 	36.1 	92 	Underwater Cave 	70
+Dossier 	 Titanomyrma 	Helena 	49.3 	11.1 	Underwater Cave 	1
+Dossier 	 Titanosaur 	Helena 	61.8 	40.7 	Swamp Cave 	69
+Dossier 	 Triceratops 	Helena 	87.4 	91 	Underwater Cave 	72
+Dossier 	 Trilobite 	Helena 	11 	22.1 	Underwater Cave 	73
+Dossier 	 Troodon 	Helena 	75 	78.8 	Southern Islets 	161
+Dossier 	 Tusoteuthis 	Helena 	59.9 	21.3 	The Caverns of Lost Faith 	162
+Dossier 	 Woolly Rhino 	Helena 	79.2 	32.3 	The Footpaw 	59
+Dossier 	 Yutyrannus 	Helena 	73.9 	23.6 	Southern Jungle 	300
+Note 	Note #1 	Helena 	8.5 	90.9 	Underwater Cave 	75
+Note 	Note #2 	Helena 	91.8 	71.3 	Underwater Cave 	76
+Note 	Note #3 	Helena 	91 	36.2 	Underwater Cave 	77
+Note 	Note #4 	Helena 	90.6 	13.1 	Underwater Cave 	78
+Note 	Note #5 	Helena 	81.5 	44.7 	Southern Islets 	123
+Note 	Note #6 	Helena 	77.2 	76.4 	Southern Islets 	127
+Note 	Note #7 	Helena 	78.8 	27.7 	The Footpaw 	128
+Note 	Note #8 	Helena 	61.2 	81.5 	Southern Islets 	145
+Note 	Note #9 	Helena 	49.4 	79.2 	The Caverns of Lost Hope 	153
+Note 	Note #10 	Helena 	52.4 	59 	The Redwood Forests 	166
+Note 	Note #11 	Helena 	69.8 	61.4 	Upper South Cave 	185
+Note 	Note #12 	Helena 	84.1 	52.1 	Lower South Cave 	186
+Note 	Note #13 	Helena 	55.2 	27.7 	The Western Approach 	187
+Note 	Note #14 	Helena 	26.3 	62.9 	Winter's Mouth 	188
+Note 	Note #15 	Helena 	34.1 	56.1 	The Frozen Tooth 	189
+Note 	Note #16 	Helena 	40.7 	26.1 	The Western Plains 	190
+Note 	Note #17 	Helena 	76.8 	77.3 	Southern Islets 	191
+Note 	Note #18 	Helena 	76.6 	70.7 	Southern Islets 	192
+Note 	Note #19 	Helena 	25.1 	44.6 	Winter's Mouth 	249
+Note 	Note #20 	Helena 	19.2 	49.9 	Winter's Mouth 	250
+Note 	Note #21 	Helena 	12.6 	49.3 	Winter's Mouth 	251
+Note 	Note #22 	Helena 	24.9 	60.9 	Winter's Mouth 	252
+Note 	Note #23 	Helena 	23.9 	65.3 	Smuggler's Pass 	253
+Note 	Note #24 	Helena 	28.9 	23.2 	Whitesky Peak 	254
+Note 	Note #25 	Helena 	36.2 	22.4 	The Western Plains 	255
+Note 	Note #26 	Helena 	27.7 	56.4 	Winter's Mouth 	256
+Note 	Note #27 	Helena 	26 	25.6 	Whitesky Peak 	285
+Note 	Note #28 	Helena 	22.3 	23.4 	Whitesky Peak 	286
+Note 	Note #29 	Helena 	16.3 	81.2 	The Dead Island 	287
+Note 	Note #30 	Helena 	19.2 	77.1 	Tek Cave ascension area 	352
+Record 	Record #1 	Rockwell 	25.3 	73.1 	The Hidden Lake 	2
+Record 	Record #2 	Rockwell 	83.2 	24.8 	Cragg's Island 	79
+Record 	Record #3 	Rockwell 	54.8 	13.8 	The Western Coast 	80
+Record 	Record #4 	Rockwell 	14.1 	85.9 	The Dead Island 	81
+Record 	Record #5 	Rockwell 	21.3 	69.2 	The Hidden Lake 	118
+Record 	Record #6 	Rockwell 	46.4 	83.7 	The Caverns of Lost Hope 	137
+Record 	Record #7 	Rockwell 	44.1 	81.4 	The Eastern Forest 	138
+Record 	Record #8 	Rockwell 	64.5 	34.1 	The Redwood Forests 	147
+Record 	Record #9 	Rockwell 	61.7 	16.1 	The Caverns of Lost Faith 	155
+Record 	Record #10 	Rockwell 	75.7 	71.5 	Southern Islets 	168
+Record 	Record #11 	Rockwell 	80 	67.1 	Southern Islets 	177
+Record 	Record #12 	Rockwell 	82.6 	51.3 	Southern Islets 	178
+Record 	Record #13 	Rockwell 	64.1 	61.6 	The Writhing Swamps 	179
+Record 	Record #14 	Rockwell 	58.6 	49 	The Red Peak 	180
+Record 	Record #15 	Rockwell 	70.2 	32 	The Writhing Swamps 	181
+Record 	Record #16 	Rockwell 	69.5 	24.8 	The Writhing Swamps 	182
+Record 	Record #17 	Rockwell 	40.8 	47.7 	Central Cave 	183
+Record 	Record #18 	Rockwell 	68.7 	86.1 	Lava Cave 	184
+Record 	Record #19 	Rockwell 	83.8 	27.7 	Cragg's Island 	241
+Record 	Record #20 	Rockwell 	86.4 	26.7 	Cragg's Island 	242
+Record 	Record #21 	Rockwell 	77.1 	31.6 	The Footpaw 	243
+Record 	Record #22 	Rockwell 	76 	46.7 	Southern Islets 	244
+Record 	Record #23 	Rockwell 	75.5 	74 	Southern Islets 	245
+Record 	Record #24 	Rockwell 	76.5 	68.1 	Southern Islets 	246
+Record 	Record #25 	Rockwell 	75 	65.6 	Southern Islets 	247
+Record 	Record #26 	Rockwell 	75.8 	75.5 	Southern Islets 	248
+Record 	Record #27 	Rockwell 	20.1 	85.9 	The Dead Island 	296
+Record 	Record #28 	Rockwell 	78.3 	47.3 	Southern Islets 	297
+Record 	Record #29 	Rockwell 	14.2 	75.6 	Tek Cave ascension area 	351
+Note 	Note #1 	Mei Yin 	25 	18.9 	Whitesky Peak 	3
+Note 	Note #2 	Mei Yin 	15.2 	20.7 	Whitesky Peak 	4
+Note 	Note #3 	Mei Yin 	15.8 	52.5 	Winter's Mouth 	82
+Note 	Note #4 	Mei Yin 	19.8 	30.1 	Whitesky Peak 	83
+Note 	Note #5 	Mei Yin 	26.6 	16.4 	Whitesky Peak 	124
+Note 	Note #6 	Mei Yin 	16.8 	29 	Whitesky Peak 	125
+Note 	Note #7 	Mei Yin 	21.3 	30 	Whitesky Peak 	126
+Note 	Note #8 	Mei Yin 	32.5 	16.1 	Whitesky Peak 	144
+Note 	Note #9 	Mei Yin 	47.2 	81.6 	The Caverns of Lost Hope 	152
+Note 	Note #10 	Mei Yin 	27.3 	43.9 	Winter's Mouth 	165
+Note 	Note #11 	Mei Yin 	20.5 	40.8 	Northern Plains 	193
+Note 	Note #12 	Mei Yin 	12.8 	54.5 	Winter's Mouth 	194
+Note 	Note #13 	Mei Yin 	21.3 	40.9 	Northern Plains 	195
+Note 	Note #14 	Mei Yin 	15.3 	53.2 	Winter's Mouth 	196
+Note 	Note #15 	Mei Yin 	26.8 	39.7 	Northern Plains 	197
+Note 	Note #16 	Mei Yin 	34.4 	29.4 	The Western Plains 	198
+Note 	Note #17 	Mei Yin 	28 	33.9 	Whitesky Peak 	199
+Note 	Note #18 	Mei Yin 	26.6 	51.7 	Winter's Mouth 	200
+Note 	Note #19 	Mei Yin 	39 	44.1 	The Grand Hills 	257
+Note 	Note #20 	Mei Yin 	39.1 	71.1 	Northern Shores 	258
+Note 	Note #21 	Mei Yin 	32.4 	73.3 	Far's Peak 	259
+Note 	Note #22 	Mei Yin 	30.1 	82.4 	Far's Peak 	260
+Note 	Note #23 	Mei Yin 	40.2 	78.8 	The Eastern Forest 	261
+Note 	Note #24 	Mei Yin 	50.5 	23.3 	The Western Approach 	262
+Note 	Note #25 	Mei Yin 	42.6 	23 	The Western Plains 	263
+Note 	Note #26 	Mei Yin 	52.4 	17.3 	The Western Approach 	264
+Note 	Note #27 	Mei Yin 	22.1 	9.7 	Whitesky Peak 	288
+Note 	Note #28 	Mei Yin 	23.5 	37.8 	Whitesky Peak 	289
+Note 	Note #29 	Mei Yin 	18.2 	38 	Whitesky Peak 	290
+Note 	Note #30 	Mei Yin 	39.9 	40.6 	The Grand Hills 	291
+Note 	Note #31 	Mei Yin 	13.3 	73.9 	Tek Cave ascension area 	354
+Note 	Note #1 	Nerva 	22.4 	68.5 	The Hidden Lake 	5
+Note 	Note #2 	Nerva 	35.7 	78.1 	Far's Peak 	84
+Note 	Note #3 	Nerva 	39.5 	24.5 	The Western Plains 	85
+Note 	Note #4 	Nerva 	41.2 	68 	The Maw 	86
+Note 	Note #5 	Nerva 	45.4 	31.5 	The Grand Hills 	121
+Note 	Note #6 	Nerva 	49.4 	79 	The Eastern Forest 	131
+Note 	Note #7 	Nerva 	47.8 	60.9 	The Maw 	132
+Note 	Note #8 	Nerva 	52.5 	49.1 	The Redwood Forests 	146
+Note 	Note #9 	Nerva 	58.2 	19.8 	The Caverns of Lost Faith 	154
+Note 	Note #10 	Nerva 	51.4 	54.6 	The Redwood Forests 	167
+Note 	Note #11 	Nerva 	82.7 	27.1 	Cragg's Island 	201
+Note 	Note #12 	Nerva 	77.4 	16.4 	Southern Jungle 	202
+Note 	Note #13 	Nerva 	69.6 	84.6 	Southern Islets 	203
+Note 	Note #14 	Nerva 	72.3 	59.2 	The Writhing Swamps 	204
+Note 	Note #15 	Nerva 	62.1 	20.4 	Southern Jungle 	205
+Note 	Note #16 	Nerva 	53.7 	77.8 	The Writhing Swamps 	206
+Note 	Note #17 	Nerva 	43.3 	69.3 	The Eastern Plains 	207
+Note 	Note #18 	Nerva 	57.9 	32.2 	The Redwood Forests 	208
+Note 	Note #19 	Nerva 	43.4 	31 	The Grand Hills 	265
+Note 	Note #20 	Nerva 	50.6 	38.5 	The Grand Hills 	266
+Note 	Note #21 	Nerva 	54.8 	70.8 	The Writhing Swamps 	267
+Note 	Note #22 	Nerva 	43.6 	61 	The Maw 	268
+Note 	Note #23 	Nerva 	45.4 	68.4 	Eastern Plains 	269
+Note 	Note #24 	Nerva 	44.1 	77 	The Eastern Forest 	270
+Note 	Note #25 	Nerva 	55.2 	75.9 	The Writhing Swamps 	271
+Note 	Note #26 	Nerva 	73.8 	17.6 	Southern Jungle 	272
+Note 	Note #27 	Nerva 	56.2 	51.1 	The Red Peak 	292
+Note 	Note #28 	Nerva 	47.9 	47.5 	The Grand Hills 	293
+Note 	Note #29 	Nerva 	71.2 	58 	The Writhing Swamps 	294
+Note 	Note #30 	Nerva 	43 	39.2 	Volcanic Maw 	295
+Hologram 	Broodmother 	Ark 	N/A 	N/A 	Defeat the Broodmother 	87
+Hologram 	Megapithecus 	Ark 	N/A 	N/A 	Defeat the Megapithecus 	88
+Hologram 	Dragon 	Ark 	N/A 	N/A 	Defeat the Dragon 	89
+Hologram 	Overseer 	Ark 	N/A 	N/A 	Defeat the Overseer 	353
+Note 	Note #1 	??? 	23.7 	78.2 	Overseer Arena 	508
+Note 	Note #4 	??? 	36.1 	79.0 	Far's Peak 	511
+Note 	Note #7 	??? 	75.6 	60.5 	Southern Islets 	514
+Note 	Note #10 	??? 	44.4 	23.7 	The Western Plains 	517
+Note 	Note #13 	??? 	89.2 	24.4 	Cragg's Island 	520
+Discovery 	Discovery #1 	HLN-A 	68.7 	85.9 	Lava Cave 	688
+Discovery 	Discovery #2 	HLN-A 	70.4 	59.3 	Upper South Cave 	689
+Discovery 	Discovery #3 	HLN-A 	27.9 	27.6 	Snow Cave 	690
+Genesis 2 Chronicles 	Chronicles #1 	HLN-A 	19.7 	19.0 	North West Cave 	853
+Genesis 2 Chronicles 	Chronicles #2 	HLN-A 	48.3 	80.3 	The Caverns of Lost Hope 	854
+Genesis 2 Chronicles 	Chronicles #3 	HLN-A 	83.1 	53.8 	Lower South Cave 	855
+Genesis 2 Chronicles 	Chronicles #4 	HLN-A 	15.4 	85.0 	North East Cave 	856
+Genesis 2 Chronicles 	Chronicles #5 	HLN-A 	61.2 	21.3 	The Caverns of Lost Faith 	857 

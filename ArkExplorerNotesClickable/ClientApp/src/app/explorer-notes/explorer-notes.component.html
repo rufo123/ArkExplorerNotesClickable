@@ -1,30 +1,37 @@
 <div class="main-wrapper">
-    <div class="map-wrapper">
-        <div #pointTooltipElement class="point-wrapper">
-            <button *ngFor="let notes of aExplorerNotesData; let i = index" [style.top.%]="getXValue(notes.coordinatesString)"
-                    [style.left.%]="getYValue(notes.coordinatesString)" [style.background-color]="getColor(notes.type, i)"
-                    class="point" (click)="onClickNote(i)" (mouseenter)="onMouseEnter(notes)" (mouseleave)="onMouseLeave()">
-            </button>
-            <ng-container>
-                <div [style.display]="aIsHidden ? 'block' : 'block'" class="point-tooltip"
-                     [style.top.%]="getXValue(aNoteData.coordinatesString)"
-                     [style.left.%]="getYValue(aNoteData.coordinatesString)"
-                     [style.font-size.px]="aPointWrapperWidth / 50">
-                    <br>
-                    <div class="point-tooltip-text-wrapper">
-                        <p>{{ aNoteData.type }}</p>
-                        <p>{{ getCoordinatesFormatted(aNoteData.coordinatesString) }}</p>
-                        <p>{{ aNoteData.type + " " + aNoteData.author + " " + aNoteData.topic }}</p>
-                    </div>
-                </div>
-            </ng-container>
+  <div class="map-wrapper">
+    <div #pointTooltipElement class="point-wrapper">
+      <button *ngFor="let notes of filterOnlyValidCoordinatesNotes(); let i = index" [style.top.%]="getXValue(notes.coordinatesString)"
+              [style.left.%]="getYValue(notes.coordinatesString)" [style.background-color]="getColor(notes.type, i)"
+              class="point" (click)="onClickNoteData(notes)" (mouseenter)="onMouseEnter(notes)" (mouseleave)="onMouseLeave()">
+      </button>
+      <ng-container>
+        <div *ngIf="aNoteData" [style.display]="aIsHidden ? 'none' : 'block'" class="point-tooltip"
+             [style.top.%]="getXValue(aNoteData!.coordinatesString)"
+             [style.left.%]="getYValue(aNoteData!.coordinatesString)"
+             [style.font-size.px]="aPointWrapperWidth / 50">
+          <br>
+          <div class="point-tooltip-text-wrapper">
+            <p>{{ aNoteData!.type }}</p>
+            <p>{{ getCoordinatesFormatted(aNoteData!.coordinatesString) }}</p>
+            <p>{{ aNoteData!.type + " " + aNoteData!.author + " " + aNoteData!.topic }}</p>
+          </div>
         </div>
-        <div id="test"></div>
+      </ng-container>
+    </div>
+    <div id="test"></div>
 
+  </div>
+  <div class="note-sidebar">
+    <div *ngFor="let notes of filterNotesNotCollected(); let i = index" class="not-yet-collected" (mouseenter)="onMouseEnter(notes)" (mouseleave)="onMouseLeave()" (click)="onClickNoteData(notes)">
+
+      {{ notes.type}}
+      <br />
+      {{ getCoordinatesFormatted(notes!.coordinatesString) }}
+      <br />
+      {{ notes.topic + " " + notes.author }}
+      <br />
+      {{ notes.location }}
     </div>
-    <div class="note-sidebar">
-        <div *ngFor="let notes of filterNotesNotCollected(); let i = index" class="not-yet-collected">
-            {{ notes.topic }}
-        </div>
-    </div>
+  </div>
 </div>

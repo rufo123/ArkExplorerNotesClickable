@@ -25,7 +25,7 @@ import { ExplorerNotesComponent } from './explorer-notes/explorer-notes.componen
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: '', component: ExplorerNotesComponent, pathMatch: 'full' },
       { path: 'explorer', component: ExplorerNotesComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ])

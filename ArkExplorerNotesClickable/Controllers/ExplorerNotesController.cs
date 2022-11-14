@@ -16,7 +16,7 @@ namespace ArkExplorerNotesClickable.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<ExplorerNoteData> Get()
+        public IEnumerable<ExplorerNoteData>? Get()
         {
             var tmpExplorerNotesData = aExplorerData.GetData();
 
